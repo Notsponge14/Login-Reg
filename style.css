@@ -1,0 +1,235 @@
+body {
+  background: linear-gradient(90deg,rgb(0, 255, 255),rgb(224, 7, 224));
+  padding-bottom: 630px;
+  overflow: hidden;
+}
+
+.form1 {
+  background-color: white;
+  width: 17vw;
+  height: 700px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  padding-top: 18px;
+  border-radius: 10px;
+  position: relative;
+  left: 1000px;
+  top: 250px;
+  }
+
+
+.fa-facebook {
+  color: rgb(43, 82, 255);
+  margin: 7px;
+  border-radius: 30px;
+  font-size: 29px;
+}
+
+.fa-twitter {
+  color: white;
+  background-color: rgb(0, 119, 255);
+  width: 24px;
+  padding: 3.7px;
+  padding-bottom: 6px;
+  padding-top: 7.1px;
+  border-radius: 100px;
+  font-size: 18px;
+  position: relative;
+  top: 96px;
+}
+
+.fa-google {
+  margin: 7px;
+  color: white;
+  background-color: red;
+  padding: 6.9px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 100px;
+  font-size: 17px;
+  position: relative;
+  top: 96px;
+}
+
+.fa-user {
+  position: relative;
+  top: 50px;
+  right: 138px;
+  font-size: 15px;
+  color: grey;
+  top: 55px;
+}
+
+.fa-lock {
+  position: relative;
+  right: 140px;
+  top: 87px;
+  font-size: 15px;
+  color: grey;
+}
+
+i {
+  display: inline-block;
+}
+
+.signup {
+  position: relative;
+  top: 170px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.noacc {
+  position: relative;
+  top: 170px;
+  font-size: 15px;
+  color: grey;
+}
+
+i {
+  position: relative;
+  top: 100px;
+  font-size: 29px;
+}
+
+.signup2 {
+  position: relative;
+  top: 100px;
+  font-size: 15px;
+  color: grey;
+}
+
+.login {
+  position: relative;
+  top: 70px;
+  padding-left: 170px;
+  padding-right: 170px;
+  border-radius: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: linear-gradient(90deg,rgb(0, 255, 255),rgb(224, 7, 224));
+  border: none;
+  color: white;
+  font-weight: 550;
+  font-size: 17px;
+}
+
+.forgot {
+  position: relative;
+  top: 60px;
+  color: gray;
+  font-size: 14px;
+  left: 130px;
+}
+
+.password {
+  position: relative;
+  top: 63px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: rgb(172, 172, 172);
+  outline: none;
+  background-color: transparent;
+  width: 15vw;
+  font-size: 20px;
+  height: 30px;
+  transition: 1s;
+  padding-bottom: 10px  ;
+}
+
+.text {
+  position: relative;
+  top: 30px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: rgb(172, 172, 172);
+  outline: none;
+  background-color: transparent;
+  width: 15vw;
+  font-size: 20px;
+  height: 30px;
+  padding-bottom: 10px;
+}
+
+.password2 {
+  position: relative;
+  top: 53px;
+  right: 162px;
+  font-size: 13.7px;
+  font-weight: 600;
+  color: rgb(53, 53, 53);
+}
+
+.username {
+  position: relative;
+  top: 20px;
+  right: 160px;
+  font-size: 13.7px;
+  font-weight: 600;
+  color: rgb(53, 53, 53);
+}
+
+::placeholder {
+  position: relative;
+  left: 30px;
+  font-size: 16px;
+  bottom: 2px;
+  color: grey;
+}
+
+.fa-google:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 3px rgba(83, 83, 83, 0.5);
+}
+
+.fa-twitter:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 3px rgba(83, 83, 83, 0.5);
+}
+
+.fa-facebook:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 3px rgba(83, 83, 83, 0.5);
+}
+
+.signup:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.forgot:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.text::placeholder {
+  position: relative;
+  top: 0.2px;
+}
+
+.password:focus::placeholder {
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.text:focus::placeholder {
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+button:hover {
+  background: rgb(222, 0, 75);
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgb(247, 0, 255) 0%,
+    rgba(191, 70, 255, 1) 49%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  opacity: 0.9;
+}
